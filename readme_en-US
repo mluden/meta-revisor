@@ -1,0 +1,41 @@
+# Instagram and Facebook Post Reviewer (Beta Version)
+
+**Post Reviewer** is a Python-based tool designed to help agencies, analysts, and social media managers monitor the most recent posts on commercial Instagram and Facebook accounts using Meta's Graph API.
+
+> 🔄 Project under development — **beta** version with functional interface and simulated data.
+
+---
+
+## 🧠 Features
+
+- ✅ Graphical interface using Tkinter.
+- ✅ Add up to **10 Instagram usernames** for post review.
+- ✅ Stores user list locally (`usuarios.json`).
+- ✅ Simulated post review showing:
+  - Last post date (`dd/mm/yyyy` format)
+  - Time since post (in days)
+  - Post type (Reels or Photo)
+  - Like count
+- 🚫 Clear indication when **Facebook is not linked**.
+- 🖼️ *(Coming soon)* Display of **user profile picture**.
+- 🔒 Token loaded securely via `.env` (ready for real Meta API connection).
+- ⚙️ Prepared to be packaged as a **standalone executable (.exe)** using `PyInstaller`.
+
+---
+
+## 🚧 In development
+
+- Real integration with the Meta Graph API.
+- Automatic detection of Facebook linked page.
+- Expandable user row showing post details on click.
+- Profile image caching and display.
+
+---
+
+## 📦 Executable
+
+You can generate a standalone executable using `PyInstaller`:
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --windowed revisador_postagens_meta.py
