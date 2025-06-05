@@ -34,7 +34,7 @@
 
 ## 🔗 Versão em inglês
 
-👉 [English version of this README]
+👉 [English version of this README](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/blob/main/README_EN.md)
 
 ---
 
